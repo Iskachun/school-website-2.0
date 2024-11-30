@@ -6,16 +6,25 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <div class="topnav">
-        <a href="index.html">Home</a>
-        <a href="projects.html">Projects</a>
-        <a href="skills.html">Skills</a>
-        <a class="active" href="contact.html">Contact</a>
-      </div>
-    <div class="main">
-      
-    </div>
 
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <div class="dropdown">
+          <button class="dropbtn">Projects 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="photos.html">Photos</a>
+            <a href="games.html">Games</a>
+            <a href="websites.html">Websites</a>
+            <a href="other_projects.html">Other projects</a>
+          </div>
+        </div> 
+        <a href="skills.html">Skills</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+      
 <script src="../js/1.js"></script>
 </body>
 </html>
