@@ -87,13 +87,16 @@ body {
 .about-me { grid-area: info; }
 .log { grid-area: log; }
 .item4 { grid-area: item4; }
+.footer { grid-area: footer; }
 
 .home-grid {
   display: grid;
   grid-template-areas:
     'header header header header header'
     'info info info info log'
-    'item4 item4 item4 item4 log';
+    'item4 item4 item4 item4 log'
+    'footer footer footer footer footer'
+    ;
   gap: 5px;
   padding: 0px 10%;
 }
@@ -140,6 +143,7 @@ body {
       "info"
       "log"
       "item4"
+      "footer"
     ;
   }
 }
