@@ -81,10 +81,33 @@ body {
 
 
 
+/*GRID ON MAIN PAGE*/
+
+.header { grid-area: header; }
+.about-me { grid-area: info; }
+.log { grid-area: log; }
+.item4 { grid-area: item4; }
+
+.home-grid {
+  display: grid;
+  grid-template-areas:
+    'header header header header header'
+    'info info info info log'
+    'item4 item4 item4 item4 log';
+  gap: 5px;
+  padding: 0px 10%;
+}
+
+.home-grid > div {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #f9f9f9;
+}
+
 
 /*RESPONSIVE DESIGN*/
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
   }
@@ -110,34 +133,15 @@ body {
     width: 100%;
     text-align: left;
   }
-  .home-grid {padding: 0px 10px;}
-}
-
-
-
-
-
-/*GRID ON MAIN PAGE*/
-
-.header { grid-area: header; }
-.about-me { grid-area: info; }
-.log { grid-area: log; }
-.item4 { grid-area: item4; }
-
-.home-grid {
-  display: grid;
-  grid-template-areas:
-    'header header header'
-    'info info log'
-    'item4 item4 log';
-  gap: 5px;
-  padding: 0px 10%;
-}
-
-.home-grid > div {
-  text-align: center;
-  padding: 20px 0;
-  background-color: #f9f9f9;
+  .home-grid {
+    padding: 0px 20px;
+    grid-template-areas: 
+      "header"
+      "info"
+      "log"
+      "item4"
+    ;
+  }
 }
 
 
@@ -199,3 +203,19 @@ body {
   from {opacity: 0;}
   to {opacity:1 ;}
 }
+
+
+
+
+
+
+/*TABLE FOR THE LOG*/
+table, th, td {
+  border-collapse: collapse; 
+;
+  min-width: 50px;
+  font-size: 16px;
+}
+
+table td+td {border-left: 1px solid black;}
+table th, table td {border-top: 1px solid black;}
