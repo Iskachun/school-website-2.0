@@ -4,6 +4,8 @@
   
   img {
     vertical-align: middle;
+    max-width: 100%;
+    height: auto;
   }
   
   /* Position the image container (needed to position the left and right arrows) */
@@ -42,6 +44,9 @@
   .next {
     right: 0;
     border-radius: 3px 0 0 3px;
+  }
+  .prev {
+    left: 0;
   }
   
   /* On hover, add a black background color with a little bit see-through */
