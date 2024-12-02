@@ -3,6 +3,8 @@
 <head>
 <title>The Best Website</title>
 <link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/pictures.css">
+<link rel="stylesheet" href="../css/projects.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -10,7 +12,7 @@
     <div class="topnav" id="myTopnav">
         <a href="index.html">Home</a>
         <div class="dropdown">
-          <button class="dropbtn" onclick="myFunction2()" style="background-color: #5cbce8cd;">Projects
+          <button class="dropbtn" onclick="dropdownFunction()" style="background-color: #5cbce8cd;">Projects
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content" id="myDropdown">
@@ -23,6 +25,85 @@
         <a href="skills.html">Skills</a>
         <a href="contact.html">Contact</a>
         <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+
+      <div class="projects-grid">
+        <div class="header">
+          
+        </div>
+        <div class="project1">
+          <button class="accordion">Section 1</button>
+          <div class="panel">
+            <p>photos</p>
+            <div class="container">
+              <div class="mySlides">
+                <div class="numbertext">1 / 6</div>
+                <img src="../media/pictures/1.jpg" style="width:100%">
+              </div>
+            
+              <div class="mySlides">
+                <div class="numbertext">2 / 6</div>
+                <img src="../media/pictures/2.jpg" style="width:100%">
+              </div>
+            
+              <div class="mySlides">
+                <div class="numbertext">3 / 6</div>
+                <img src="../media/pictures/3.jpg" style="width:100%">
+              </div>
+                
+              <div class="mySlides">
+                <div class="numbertext">4 / 6</div>
+                <img src="../media/pictures/4.jpg" style="width:100%">
+              </div>
+            
+              <div class="mySlides">
+                <div class="numbertext">5 / 6</div>
+                <img src="../media/pictures/5.jpg" style="width:100%">
+              </div>
+                
+              <div class="mySlides">
+                <div class="numbertext">6 / 6</div>
+                <img src="../media/pictures/6.jpg" style="width:100%">
+              </div>
+                
+              <a class="prev" onclick="plusSlides(-1)">❮</a>
+              <a class="next" onclick="plusSlides(1)">❯</a>
+            
+              <div class="caption-container">
+                <p id="caption"></p>
+              </div>
+            
+            <div class="row">
+              <div class="column">
+                <img class="demo cursor" src="../media/pictures/1.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="../media/pictures/2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="../media/pictures/3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="../media/pictures/4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="../media/pictures/5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+              </div>    
+              <div class="column">
+                <img class="demo cursor" src="../media/pictures/6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+              </div>
+            </div>
+          </div>
+
+            
+          </div>
+        </div>
+        <div class="project2">
+          <button class="accordion">Section 2</button>
+          <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
       </div>
       
 <script src="../js/1.js"></script>
