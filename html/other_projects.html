@@ -4,6 +4,7 @@
 <title>The Best Website</title>
 <link rel="stylesheet" href="../css/style.css">
 <link rel="stylesheet" href="../css/projects.css">
+<link rel="stylesheet" href="../css/todolist.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -26,6 +27,27 @@
         <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
       </div>
       
+      <div class="projects-grid">
+        <div class="header">
+          Other useful projects
+        </div>
+        <div class="project1">
+          <button class="accordion">To-Do List</button>
+          <div class="panel">
+            <p>A to-do list.</p>
+            <div id="myDIV" class="header">
+              <input type="text" id="myInput" placeholder="Name of task...">
+              <span onclick="newElement()" class="addBtn">Add</span>
+            </div>
+            
+            <ul id="myUL">
+            </ul>
+        </div>
+        </div>
+         
+    </div>
+
 <script src="../js/1.js"></script>
+<script src="../js/todolist.js"></script>
 </body>
 </html>
