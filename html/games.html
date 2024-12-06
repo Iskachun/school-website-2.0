@@ -25,7 +25,48 @@
         <a href="contact.html">Contact</a>
         <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
       </div>
+
+
+      <div class="projects-grid">
+        <div class="header">
+          Games
+        </div>
+        <div class="project1">
+          <button class="accordion">Rock Paper Scissors</button>
+          <div class="panel">
+            <p>Rock Paper Scissors</p>
+            <p><u>Choose your move:</u></p>
+    <form>
+        <label class="container">Rock
+            <input type="radio" id="rock" name="radio">
+            <span class="checkmark"></span>
+          </label>
+          <label class="container">Paper
+            <input type="radio" id="paper" name="radio">
+            <span class="checkmark"></span>
+          </label>
+          <label class="container">Scissors
+            <input type="radio" id="scissors" name="radio">
+            <span class="checkmark"></span>
+          </label>
+          </label>
+    </form>
+    <br><br>
+    <button id="play" class="btn" onclick="play()"> Play</button>
+    <p id="error_msg2" style="color:red;"></p>
+    <br>
+    <p><u>Computer's move:</u></p>
+    <p id="comp">-</p>
+    <p><u>Result:</u></p>
+    <p id="result">-</p>
+    <p id="score"><u>Score:</u></p>
+    <p id="pl_score"> Your score: 0</p>
+    <p id="cmp_score"> Computer score: 0</p>
+          </div>
+        </div>
+      </div>
       
 <script src="../js/1.js"></script>
+<script src="../js/rockpaperscissors.js"></script>
 </body>
 </html>
