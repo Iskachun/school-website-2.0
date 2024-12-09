@@ -52,4 +52,11 @@ function newElement() {
       div.style.display = "none";
     }
   }
+  var panel = document.getElementById("todolist");
+    //var panel = elem.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } else {
+      panel.style.maxHeight = null;
+    } 
 }

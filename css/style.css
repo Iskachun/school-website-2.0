@@ -22,6 +22,7 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  border-radius: 5px;
 }
 
 .active {
@@ -36,6 +37,7 @@ body {
 .dropdown {
   float: left;
   overflow: hidden;
+  border-radius: 5px;
 }
 
 .dropdown .dropbtn {
@@ -78,6 +80,8 @@ body {
   background-color: #555;
   color: white;
 }
+
+
 
 
 
@@ -130,6 +134,28 @@ body {
   padding: 20px 0;
   background-color: #f9f9f9;
 }
+
+
+
+/*GRID FOR CONTACT*/
+.cont { grid-area: c; }
+
+.contact-grid {
+  display: grid;
+  grid-template-areas:
+    'c'
+    ;
+  gap: 5px;
+  padding: 0px 10%;
+}
+
+.contact-grid > div {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #f9f9f9;
+}
+
+
 
 
 
@@ -257,3 +283,34 @@ table th, table td {border-top: 1px solid black;}
 
 
 
+video {max-width: 50%;}
+
+
+
+
+
+
+/*CONTACT FORM*/
+input, textarea {
+  font-family: inherit;
+  margin-top: 5px;
+  height: 35px;
+  width: 235px;
+}
+
+textarea {height: 50px;}
+.submitbtn {
+  font-size: 18px;
+  background-color: #5cbce8cd;
+  color: #f2f2f2;
+  font-weight: bold;
+  padding: 10px 35px;
+  margin: 5px 0 10px;
+  font-family: inherit;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.submitbtn:hover {
+  background-color: #4da6cfcd;
+}
