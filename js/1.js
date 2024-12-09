@@ -28,6 +28,10 @@ function popupFunction() {
   var popup = document.getElementById("myPopup");
   popup.classList.toggle("show");
 }
+function popupFunction2() {
+  var popup = document.getElementById("myPopup2");
+  popup.classList.toggle("show");
+}
 
 
 
