@@ -282,7 +282,7 @@ table th, table td {border-top: 1px solid black;}
 
 
 
-
+button {font-family: inherit;}
 video {max-width: 50%;}
 
 
@@ -299,8 +299,8 @@ input, textarea {
 }
 
 textarea {height: 50px;}
-.submitbtn {
-  font-size: 18px;
+.sumbitbtn, .btn {
+  font-size: 20px;
   background-color: #5cbce8cd;
   color: #f2f2f2;
   font-weight: bold;
@@ -311,6 +311,6 @@ textarea {height: 50px;}
   border-radius: 5px;
   cursor: pointer;
 }
-.submitbtn:hover {
+.submitbtn:hover, .btn:hover {
   background-color: #4da6cfcd;
 }

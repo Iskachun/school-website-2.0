@@ -43,3 +43,47 @@ function play() {
     document.getElementById("cmp_score").innerHTML = "Computer score: " + computerScore;
     document.getElementById("comp").innerHTML = robot;
 }
+
+
+var input = document.getElementById('rock');
+var div = document.getElementById('container1');
+input.onclick = function(){
+  input.style.backgroundColor = "#5cbce8cd";
+  div.style.backgroundColor = "#5cbce8cd";
+  input3.style.backgroundColor = "#eee";
+  div3.style.backgroundColor = "#eee";
+  input2.style.backgroundColor = "#eee";
+  div2.style.backgroundColor = "#eee";
+}
+
+var input2 = document.getElementById('paper');
+var div2 = document.getElementById('container2');
+input2.onclick = function(){
+    input2.style.backgroundColor = "#5cbce8cd";
+    div2.style.backgroundColor = "#5cbce8cd";
+    input.style.backgroundColor = "#eee";
+    div.style.backgroundColor = "#eee";
+    input3.style.backgroundColor = "#eee";
+    div3.style.backgroundColor = "#eee";
+}
+
+var input3 = document.getElementById('scissors');
+var div3 = document.getElementById('container3');
+input3.onclick = function(){
+  input3.style.backgroundColor = "#5cbce8cd";
+  div3.style.backgroundColor = "#5cbce8cd";
+  input.style.backgroundColor = "#eee";
+  div.style.backgroundColor = "#eee";
+  input2.style.backgroundColor = "#eee";
+  div2.style.backgroundColor = "#eee";
+}
+
+var remove = document.getElementById("closebtn");
+remove.onclick = function() {
+    input.style.backgroundColor = "#eee";
+    div.style.backgroundColor = "#eee";
+    input2.style.backgroundColor = "#eee";
+    div2.style.backgroundColor = "#eee";
+    input3.style.backgroundColor = "#eee";
+    div3.style.backgroundColor = "#eee";
+}
