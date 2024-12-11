@@ -14,7 +14,7 @@
     transition: 0.4s;
   }
   
-  .active, .accordion:hover {
+  .open, .accordion:hover {
     background-color: #ccc;
   }
   
@@ -26,7 +26,7 @@
     margin-left: 5px;
   }
   
-  .active:after {
+  .open:after {
     content: "\2212";
   }
   
@@ -86,72 +86,3 @@
 
 
 
-
-
-  /*SKILLS TAB*/
-  .html {
-    width: 60%;
-    background: #04AA6D;
-    position: relative;
-  }
-  .move{
-    animation: move1 2s;
-  }
-  @keyframes move1 {
-    0%   {width: 0%;}
-    100% {width: 60%;}
-  }
-
-  .css {
-    width: 45%;
-    background: #2196F3;
-    position: relative;
-  }
-  .move2{
-    animation: move2 2s;
-  }
-  @keyframes move2 {
-    0%   {width: 0%;}
-    100% {width: 45%;}
-  }
-
-  .js {
-    width: 35%;
-    background: #f44336;
-    position: relative;
-  }
-  .move3{
-    animation: move3 2s;
-  }
-  @keyframes move3 {
-    0%   {width: 0%;}
-    100% {width: 35%;}
-  }
-
-
-  
-  .cpp {
-    width: 80%;
-    background: #04AA6D;
-    position: relative;
-  }
-  .move4{
-    animation: move4 2s;
-  }
-  @keyframes move4 {
-    0%   {width: 0%;}
-    100% {width: 80%;}
-  }
-
-  .python {
-    width: 75%;
-    background: #2196F3;
-    position: relative;
-  }
-  .move5{
-    animation: move5 2s;
-  }
-  @keyframes move5 {
-    0%   {width: 0%;}
-    100% {width: 75%;}
-  }
