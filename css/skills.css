@@ -2,7 +2,7 @@
   /*SKILLS TAB*/
   .html {
     width: 60%;
-    background: #04AA6D;
+    background: #5cbce8cd;
     position: relative;
   }
   .move{
@@ -15,7 +15,7 @@
 
   .css {
     width: 45%;
-    background: #2196F3;
+    background: #5cbce8cd;
     position: relative;
   }
   .move2{
@@ -28,7 +28,7 @@
 
   .js {
     width: 35%;
-    background: #f44336;
+    background: #5cbce8cd;
     position: relative;
   }
   .move3{
@@ -43,7 +43,7 @@
   
   .cpp {
     width: 80%;
-    background: #04AA6D;
+    background: #5cbce8cd;
     position: relative;
   }
   .move4{
@@ -56,7 +56,7 @@
 
   .python {
     width: 75%;
-    background: #2196F3;
+    background: #5cbce8cd;
     position: relative;
   }
   .move5{
