@@ -69,7 +69,7 @@
   .typescript, .react { 
     position: relative;
     background: #5cbce8cd;
-    animation: learning-bar 2s linear infinite;
+    animation: learning-bar 4s linear infinite;
   }
 
   @keyframes learning-bar {
