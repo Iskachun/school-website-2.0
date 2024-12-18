@@ -66,8 +66,38 @@
     0%   {width: 0%;}
     100% {width: 75%;}
   }
+  .typescript, .react { 
+    position: relative;
+    background: #5cbce8cd;
+    animation: learning-bar 2s linear infinite;
+  }
 
+  @keyframes learning-bar {
+    0% {
+      left:0%;
+      right:100%;
+      width:0%;
+    }
+    10% {
+      left:0%;
+      right:75%;
+      width:40%;
+    }
+    90% {
+      right:0%;
+      left:75%;
+      width:40%;
+    }
+    100% {
+      left:100%;
+      right:0%;
+      width:0%;
+    }
+  }
 
+.html, .css, .js, .python, .cpp, .typescript, .react {
+  height: 40px;
+}
 
 
 
