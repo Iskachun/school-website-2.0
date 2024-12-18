@@ -80,12 +80,12 @@
     }
     10% {
       left:0%;
-      right:75%;
+      right:65%;
       width:40%;
     }
     90% {
       right:0%;
-      left:75%;
+      left:65%;
       width:40%;
     }
     100% {
