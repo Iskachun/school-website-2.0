@@ -4,6 +4,7 @@
 <title>The Best Website</title>
 <link rel="stylesheet" href="../css/style.css">
 <link rel="stylesheet" href="../css/projects.css">
+<!-- <link rel="stylesheet" href="../css/hangman.css"> -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -51,10 +52,10 @@
           </label>
           </label>
         </form>
-        <p id="closebtn">&#10006</p>
-        <button id="play" class="btn" onclick="play()"> Play</button>
         <p id="error_msg2" style="color:red;"></p>
         <br>
+        <p><u>Your move:</u></p>
+        <p id="chosen_player">-</p>
         <p><u>Computer's move:</u></p>
         <p id="comp">-</p>
         <p><u>Result:</u></p>
@@ -64,9 +65,38 @@
         <p id="cmp_score"> Computer score: 0</p>
               </div>
             </div>
+
+
+      <div class="project2">
+        <button class="accordion">Hangman</button>
+        <div class="panel">
+          <!-- <div class="game-modal">
+            <div class="content">
+                <h4>Game Over!</h4>
+                <p>The correct word was: <b>rainbow</b></p>
+                <button class="play-again">Play Again</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="hangman-box">
+                <img src="../media/hangman/hangman-0.jpg" alt="hangman-img">
+            </div>
+            <div class="game-box">
+                <ul class="word-display"></ul>
+                <h4 class="hint-text">Hint: <b></b></h4>
+                <h4 class="guesses-text">Incorrect guesses: <b></b></h4>
+                <div class="keyboard"></div>
+            </div>
+        </div> -->
+        </div>
       </div>
+
+      </div>
+
       
 <script src="../js/1.js"></script>
 <script src="../js/rockpaperscissors.js"></script>
+<!-- <script src="hangman1.js" defer></script>
+<script src="hangman2.js" defer></script> -->
 </body>
 </html>

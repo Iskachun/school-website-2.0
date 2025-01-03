@@ -9,8 +9,7 @@ function play() {
     else if (document.getElementById("paper").checked) player="paper";
     else if (document.getElementById("scissors").checked) player="scissors";
     
-    document.getElementById("result").innerHTML = player;
-    console.log(player);
+    document.getElementById("chosen_player").innerHTML = player;
     const choices = ["rock", "paper", "scissors"];
     let robot = choices[Math.floor(Math.random() * 3)];
     if (choices[0] != player && choices[1] != player && choices[2] != player) {
@@ -42,6 +41,15 @@ function play() {
     document.getElementById("pl_score").innerHTML = "Your score: " + humanScore;
     document.getElementById("cmp_score").innerHTML = "Computer score: " + computerScore;
     document.getElementById("comp").innerHTML = robot;
+
+    /*
+    input.style.backgroundColor = "#eee";
+    div.style.backgroundColor = "#eee";
+    input2.style.backgroundColor = "#eee";
+    div2.style.backgroundColor = "#eee";
+    input3.style.backgroundColor = "#eee";
+    div3.style.backgroundColor = "#eee";
+    */
 }
 
 
@@ -54,6 +62,7 @@ input.onclick = function(){
   div3.style.backgroundColor = "#eee";
   input2.style.backgroundColor = "#eee";
   div2.style.backgroundColor = "#eee";
+  play();
 }
 
 var input2 = document.getElementById('paper');
@@ -65,6 +74,7 @@ input2.onclick = function(){
     div.style.backgroundColor = "#eee";
     input3.style.backgroundColor = "#eee";
     div3.style.backgroundColor = "#eee";
+    play();
 }
 
 var input3 = document.getElementById('scissors');
@@ -76,14 +86,5 @@ input3.onclick = function(){
   div.style.backgroundColor = "#eee";
   input2.style.backgroundColor = "#eee";
   div2.style.backgroundColor = "#eee";
-}
-
-var remove = document.getElementById("closebtn");
-remove.onclick = function() {
-    input.style.backgroundColor = "#eee";
-    div.style.backgroundColor = "#eee";
-    input2.style.backgroundColor = "#eee";
-    div2.style.backgroundColor = "#eee";
-    input3.style.backgroundColor = "#eee";
-    div3.style.backgroundColor = "#eee";
+  play();
 }
