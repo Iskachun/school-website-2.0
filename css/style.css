@@ -175,6 +175,9 @@ body {
       "footer"
     ;
   }
+  .draft {
+    max-width: 300px;
+  }
 }
 
 
