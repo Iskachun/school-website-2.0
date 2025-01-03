@@ -107,7 +107,7 @@
 
 
 
-  /*ACCORDION TO SHOW PROJECTS EASIER*/
+  /*ACCORDION TO SHOW SKILLS EASIER*/
 .accordion {
   background-color: #eee;
   color: #444;
@@ -143,5 +143,31 @@
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+}
+
+
+
+/*SKILLS GRID*/
+.skills { grid-area: header; }
+.skills1 { grid-area: s1; }
+.skills2 { grid-area: s2; }
+.skills3 { grid-area: s3; }
+
+.skills-grid {
+  display: grid;
+  grid-template-areas:
+    'header'
+    's1'
+    's2'
+    's3'
+    ;
+  gap: 5px;
+  padding: 0px 10%;
+}
+
+.skills-grid > div {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #f9f9f9;
 }
 

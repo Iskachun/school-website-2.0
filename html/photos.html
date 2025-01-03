@@ -8,6 +8,8 @@
 </head>
 <body>
 
+
+    <!-- NAVIGATION BAR (ITS THE SAME FOR ALL PAGES) -->
     <div class="topnav" id="myTopnav">
         <a href="index.html">Home</a>
         <div class="dropdown">
@@ -26,6 +28,13 @@
         <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
       </div>
 
+
+      <!-- FOR THE PROJECTS, I WILL USE THE SAME TYPE OF GRID, WHICH I CALLED THE PROJECT GRID.
+       THE LAYOUT FOR ALL THE PROJECTS IS THE SAME - LIKE A STACK (ALL THE ELEMENTS ARE "STACKED" UP ON EACH OTHER).
+       SO THERE WILL BE A HEADER, DESCRIBING WHAT KIND OF PROJECTS THE SECTION IS ABOUT, AND UNDERNEATH THERE WILL BE BUTTONS WITH THE PROJECTS THEMSELVES.
+       THE MORE PROJECTS THERE ARE, THE LONGER THE LIST WILL BE. 
+       AND WHEN YOU CLICK ON THE BUTTON OF A SPECIFIC PROJECT, IT WILL OPEN UP (ON THE SAME PAGE) AND SHOW THE PROEJCT.
+       THIS WILL (AND ALREADY HAS) CAUSED TROUBLE WITH THE CSS AND JS COLLIDING FOR DIFFERENT PROJECTS, BUT I'LL WORK ON IT TO MAKE IT LOOK (AND WORK) GOOD. -->
       <div class="projects-grid">
         <div class="header">
           Photos and media projects
@@ -162,6 +171,12 @@
               <source src="../media/fotoserie/fotoprosjekt.mp4" type="video/mp4">
             Your browser does not support the video tag.
             </video>
+          </div>
+        </div>
+        <div class="project3">
+          <button class="accordion">Draft of the main page</button>
+          <div class="panel">
+            <img src="../media/school website plan.png">
           </div>
         </div>
       </div>

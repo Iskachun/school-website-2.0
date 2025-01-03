@@ -112,31 +112,6 @@ body {
 }
 
 
-
-/*GRID FOR PROJECTS*/
-.header { grid-area: header; }
-.project1 { grid-area: pr1; }
-.project2 { grid-area: pr2; }
-
-.projects-grid {
-  display: grid;
-  grid-template-areas:
-    'header'
-    'pr1'
-    'pr2'
-    ;
-  gap: 5px;
-  padding: 0px 10%;
-}
-
-.projects-grid > div {
-  text-align: center;
-  padding: 20px 0;
-  background-color: #f9f9f9;
-}
-
-
-
 /*GRID FOR CONTACT*/
 .cont { grid-area: c; }
 
