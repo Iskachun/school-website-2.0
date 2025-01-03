@@ -92,6 +92,7 @@ body {
 .log { grid-area: log; }
 .item4 { grid-area: item4; }
 .footer { grid-area: footer; }
+.log2 { grid-area: log2; }
 
 .home-grid {
   display: grid;
@@ -99,6 +100,7 @@ body {
     'header header header header header'
     'info info info info log'
     'item4 item4 item4 item4 log'
+    'log2 log2 log2 log2 log2'
     'footer footer footer footer footer'
     ;
   gap: 5px;
@@ -169,6 +171,7 @@ body {
       "info"
       "log"
       "item4"
+      "log2"
       "footer"
     ;
   }
@@ -240,19 +243,13 @@ body {
 
 
 /*TABLE FOR THE LOG*/
-table, th, td {
-  border-collapse: collapse; 
-;
-  min-width: 50px;
-  font-size: 16px;
+table {
+  border-collapse: collapse;
+  border-style: hidden;
 }
-
-table td+td {border-left: 1px solid black;}
-table th, table td {border-top: 1px solid black;}
-
-
-
-
+table td, table th {
+  border: 1px solid black;
+}
 
 
 
@@ -288,4 +285,49 @@ textarea {height: 50px;}
 }
 .submitbtn:hover, .btn:hover {
   background-color: #4da6cfcd;
+}
+
+
+
+
+
+
+
+/*ACCORDION TO SHOW LOG EASIER*/
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  font-family: inherit;
+}
+
+.open, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.open:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #f9f9f9;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
 }

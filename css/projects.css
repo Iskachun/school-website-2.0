@@ -175,6 +175,7 @@ body {
 .header { grid-area: header; }
 .project1 { grid-area: pr1; }
 .project2 { grid-area: pr2; }
+.project3 { grid-area: pr3; }
 
 .projects-grid {
   display: grid;
@@ -182,6 +183,7 @@ body {
     'header'
     'pr1'
     'pr2'
+    'pr3'
     ;
   gap: 5px;
   padding: 0px 10%;
