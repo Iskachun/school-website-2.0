@@ -1,5 +1,5 @@
-/* Importing Google font - Open Sans */
-body {
+
+.game-modal, .content, .conatiner, .hangman-box {
     display: flex;
     padding: 0 10px;
     align-items: center;
