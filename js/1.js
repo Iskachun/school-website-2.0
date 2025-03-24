@@ -34,6 +34,101 @@ function popupFunction2() {
 }
 
 
+/*POPUPS FOR THE LOG. I KNOW IT LOOKS BAD, BUT I DONT KNOW HOW TO MAKE IT PRETTIER. IT WORKS, SOOOO-*/
+
+function popupFunction3() {
+  var popup = document.getElementById("myPopup3");
+  var popup_text = document.getElementById("popup3");
+  popup.classList.toggle("show3");
+  if (popup.classList.contains("show3")) {
+    popup_text.style.color = "#5cbce8cd";
+  } else {
+    popup_text.style.color = "black";
+  }
+}
+function popupFunction4() {
+  var popup = document.getElementById("myPopup4");
+  var popup_text = document.getElementById("popup4");
+  popup.classList.toggle("show4");
+  if (popup.classList.contains("show4")) {
+    popup_text.style.color = "#5cbce8cd";
+  } else {
+    popup_text.style.color = "black";
+  }
+}
+function popupFunction5() {
+  var popup = document.getElementById("myPopup5");
+  var popup_text = document.getElementById("popup5");
+  popup.classList.toggle("show5");
+  if (popup.classList.contains("show5")) {
+    popup_text.style.color = "#5cbce8cd";
+  } else {
+    popup_text.style.color = "black";
+  }
+}
+function popupFunction6() {
+  var popup = document.getElementById("myPopup6");
+  var popup_text = document.getElementById("popup6");
+  popup.classList.toggle("show6");
+  if (popup.classList.contains("show6")) {
+    popup_text.style.color = "#5cbce8cd";
+  } else {
+    popup_text.style.color = "black";
+  }
+}
+function popupFunction7() {
+  var popup = document.getElementById("myPopup7");
+  var popup_text = document.getElementById("popup7");
+  popup.classList.toggle("show7");
+  if (popup.classList.contains("show7")) {
+    popup_text.style.color = "#5cbce8cd";
+  } else {
+    popup_text.style.color = "black";
+  }
+}
+function popupFunction8() {
+  var popup = document.getElementById("myPopup8");
+  var popup_text = document.getElementById("popup8");
+  popup.classList.toggle("show8");
+  if (popup.classList.contains("show8")) {
+    popup_text.style.color = "#5cbce8cd";
+  } else {
+    popup_text.style.color = "black";
+  }
+}
+function popupFunction9() {
+  var popup = document.getElementById("myPopup9");
+  var popup_text = document.getElementById("popup9");
+  popup.classList.toggle("show9");
+  if (popup.classList.contains("show9")) {
+    popup_text.style.color = "#5cbce8cd";
+  } else {
+    popup_text.style.color = "black";
+  }
+}
+function popupFunction10() {
+  var popup = document.getElementById("myPopup10");
+  var popup_text = document.getElementById("popup10");
+  popup.classList.toggle("show10");
+  if (popup.classList.contains("show10")) {
+    popup_text.style.color = "#5cbce8cd";
+  } else {
+    popup_text.style.color = "black";
+  }
+}
+function popupFunction11() {
+  var popup = document.getElementById("myPopup11");
+  var popup_text = document.getElementById("popup11");
+  popup.classList.toggle("show11");
+  if (popup.classList.contains("show11")) {
+    popup_text.style.color = "#5cbce8cd";
+  } else {
+    popup_text.style.color = "black";
+  }
+}
+
+
+
 
 var acc = document.getElementsByClassName("accordion");
 var i;
