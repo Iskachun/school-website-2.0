@@ -547,7 +547,7 @@ table td, table th {
   position: absolute;
   z-index: 1;
   bottom: 125%;
-  margin-left: -350px;
+  margin-left: -450px;
 }
 
 /* Toggle this class - hide and show the popup */
