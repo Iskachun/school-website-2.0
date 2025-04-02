@@ -126,6 +126,16 @@ function popupFunction11() {
     popup_text.style.color = "black";
   }
 }
+function popupFunction12() {
+  var popup = document.getElementById("myPopup12");
+  var popup_text = document.getElementById("popup12");
+  popup.classList.toggle("show12");
+  if (popup.classList.contains("show12")) {
+    popup_text.style.color = "#5cbce8cd";
+  } else {
+    popup_text.style.color = "black";
+  }
+}
 
 
 
