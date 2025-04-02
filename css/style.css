@@ -996,7 +996,7 @@ textarea {height: 50px;}
 }
 
 .open, .accordion:hover {
-  background-color: #ccc;
+  background-color: #5cbce8cd;
 }
 
 .accordion:after {
